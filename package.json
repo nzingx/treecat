@@ -1,0 +1,44 @@
+{
+  "name": "treecat",
+  "version": "1.0.0",
+  "description": "view folder structure like tree and also display file contents with cat",
+  "keywords": [
+    "cli",
+    "tree",
+    "cat",
+    "module"
+  ],
+  "homepage": "https://github.com/nzingx/treecat#readme",
+  "bugs": {
+    "url": "https://github.com/nzingx/treecat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nzingx/treecat.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "nzingx",
+  "type": "module",
+  "main": "bin/treecat.mjs", 
+  "bin": {
+    "treecat": "./bin/treecat.mjs"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node bin/treecat.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "ignore": "^7.0.5",
+    "inquirer": "^12.6.3",
+    "micromatch": "^4.0.8",
+    "minimalist": "^1.0.0",
+    "minimist": "^1.2.8"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.1"
+  }
+}
