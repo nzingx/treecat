@@ -1,7 +1,7 @@
 #  treecat - Interactive Directory Structure and Content Scanner
 
 [![License](https://img.shields.io/badge/License-EVL-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.1-green.svg)](https://github.com/nzingx/treecat)
+[![Version](https://img.shields.io/badge/Version-1.0.2-green.svg)](https://github.com/nzingx/treecat)
 
 `treecat` is a powerful CLI tool that combines directory tree visualization with file content preview capabilities. It works in both interactive and non-interactive modes, perfect for developers who need to quickly explore project structures or document codebases.
 
@@ -84,7 +84,7 @@ treecat --issues        # View issue tracker
 Example `.treecatrc.json`:
 ```json
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "targetDir": "./src",
   "excludeGitignore": true,
   "extensions": [".js", ".jsx"],

@@ -16,7 +16,7 @@
  * Entry point for Treecat CLI.
  * Delegates execution to the main() function in lib/main.js.
  *
- * @version 1.0.1
+ * @version 1.0.2
  */
 
 import { main } from '../lib/main.js';
