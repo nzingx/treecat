@@ -1,6 +1,6 @@
 {
   "name": "treecat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "View folder structure like tree and display file contents like cat — all in one CLI.",
   "keywords": [
     "cli",
