@@ -1,12 +1,14 @@
 {
   "name": "treecat",
-  "version": "1.0.0",
-  "description": "view folder structure like tree and also display file contents with cat",
+  "version": "1.0.1",
+  "description": "View folder structure like tree and display file contents like cat — all in one CLI.",
   "keywords": [
     "cli",
     "tree",
     "cat",
-    "module"
+    "file-system",
+    "terminal",
+    "folder-structure"
   ],
   "homepage": "https://github.com/nzingx/treecat#readme",
   "bugs": {
@@ -16,27 +18,32 @@
     "type": "git",
     "url": "git+https://github.com/nzingx/treecat.git"
   },
-  "license": "SEE LICENSE IN LICENSE",
   "author": "nzingx",
+  "license": "MIT",
   "type": "module",
-  "main": "bin/treecat.mjs", 
+  "main": "bin/treecat.mjs",
   "bin": {
     "treecat": "./bin/treecat.mjs"
   },
-  "directories": {
-    "lib": "lib"
-  },
+  "files": [
+    "bin/"
+  ],
   "scripts": {
     "start": "node bin/treecat.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "engines": {
+    "node": ">=16"
   },
   "dependencies": {
+    "archiver": "^7.0.1",
     "commander": "^14.0.0",
     "ignore": "^7.0.5",
     "inquirer": "^12.6.3",
     "micromatch": "^4.0.8",
     "minimalist": "^1.0.0",
-    "minimist": "^1.2.8"
+    "minimist": "^1.2.8",
+    "treecat": "file:treecat-1.0.1.tgz"
   },
   "devDependencies": {
     "javascript-obfuscator": "^4.1.1"
